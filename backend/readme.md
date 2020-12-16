@@ -1,6 +1,6 @@
 __Installation__
 
-##titre BACKEND:
+##Title 1 BACKEND:
 
    * Copier le fichier bdd groupomania.sql et l'installer dans votre base de données.
    * Mettez vos paramètres de connexion dans le fichier .env
