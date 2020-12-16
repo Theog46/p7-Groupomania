@@ -47,7 +47,7 @@ if (email && password) {
                   isAdmin: results[0].isAdmin,
                   dateCreated: results[0].dateCreated,
                    token: jwt.sign( 
-                    { userId: results[0].id },process.env.SECRET_CLE_TOKEN,{ expiresIn: '24h' }) // mettre "paramètre" .env pour RANDOM_TOKEN_SECRET
+                    { userId: results[0].id },process.env.SECRET_CLE_TOKEN,{ expiresIn: '24h' }) 
               })
               
             }
@@ -70,7 +70,7 @@ exports.getOneUser = (req, res, next) => {
   mysqlConnection.query(sqlAllFromMembre, function(err, result) {
     if (err) {
       throw err;
-    } else { //on a tout du membre on fait le requete d'apres
+    } else { 
       res.status(200).json(result);  
     }
   });
@@ -81,7 +81,7 @@ exports.getOneUser = (req, res, next) => {
 exports.deleteAccount = (req, res, next) => {
   const idUser = encodeURI(req.params.userId);
      
-  var sql = 'DELETE FROM users WHERE id ='+idUser;   //  -> on cherche tous du membre
+  var sql = 'DELETE FROM users WHERE id ='+idUser;   
   mysqlConnection.query(sql, function(err, result) {
     if (err) {
       throw err;
