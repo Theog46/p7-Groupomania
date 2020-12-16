@@ -1,14 +1,12 @@
-Installation
+__Installation__
 
-BACKEND:
+##BACKEND:
 
-    copier backend/bdd.sql dans votre base de donnée
-    backend / .env -> mettre les bons paramètres pour la connexion à la base de donnée SQL Il y a 1 seul user déjà enregistrée:
-    Email: chloe@groupomania.fr Mdp: secret
-    -> elle est chargée de communication (level 4) et à accès au menu admin une fois connectée
-    start server with: nodemon serve
+   * Copier le fichier bdd groupomania.sql et l'installer dans votre base de données.
+   * Mettez vos paramètres de connexion dans le fichier .env
+   * Il y a déjà un utilisateur d'enregistré dans la base de données. Email : theo@gmail.com / Mot de passe : password
+   * Cet utilisateur possède les droits d'administrateur.
+   
+###Pour lancer le serveur il faut se placer dans le dossier backend et effectuer la commande *nodemon server*
 
-FRONTEND:
 
-    rien à faire à priori
-    start server with: npm run serve
