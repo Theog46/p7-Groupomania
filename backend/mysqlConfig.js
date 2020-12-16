@@ -1,11 +1,11 @@
 var mysql      = require('mysql');
 
 var mysqlConnection = mysql.createConnection({
-  host: process.env.DB_HOST, // a changer en production par le contenu de .env
-  user: process.env.DB_USER, // a changer en production par le contenu de .env
-  password: process.env.DB_PASSWORD, // a changer en production par le contenu de .env
-  database: process.env.DB_DATABASE, // a changer en production par le contenu de .env
-  port: process.env.DB_PORT, // a changer en production par le contenu de .env
+  host: process.env.DB_HOST, 
+  user: process.env.DB_USER, 
+  password: process.env.DB_PASSWORD, 
+  database: process.env.DB_DATABASE, 
+  port: process.env.DB_PORT, 
   multipleStatements: true
 })
 
