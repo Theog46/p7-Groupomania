@@ -1,4 +1,4 @@
-__Installation__
+# __Installation__
 
 ## __BACKEND__:
 
@@ -7,6 +7,6 @@ __Installation__
    * Il y a déjà un utilisateur d'enregistré dans la base de données. Email : theo@gmail.com / Mot de passe : password
    * Cet utilisateur possède les droits d'administrateur.
    
-###__Pour lancer le serveur il faut se placer dans le dossier backend et effectuer la commande *nodemon server*__
+### __Pour lancer le serveur il faut se placer dans le dossier backend et effectuer la commande *nodemon server*__
 
 
