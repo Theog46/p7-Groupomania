@@ -45,7 +45,6 @@ if (email && password) {
                  username: results[0].username,
                   email: results[0].email,
                   isAdmin: results[0].isAdmin,
-                  dateCreated: results[0].dateCreated,
                    token: jwt.sign( 
                     { userId: results[0].id },process.env.SECRET_CLE_TOKEN,{ expiresIn: '24h' }) 
               })
