@@ -1,24 +1,12 @@
 # p7-groupomania
 
-## Project setup
-```
-npm install
-```
+## FRONTEND
+ 
+Pour installer le FrontEnd, se placer dans le dossier frontend et utiliser la commande `npm install vue`
+Une fois vue installé, vous pouvez exécuter la commande `npm run serve` 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Si une erreur apparait faites `npm install axios`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Le serveur va se lancer et sera accessible ici : http://localhost:8080/#/login
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Un compte est déjà créé. L'adresse email est : theo@gmail.com / Mot de passe : Password1!
