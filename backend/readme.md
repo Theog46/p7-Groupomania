@@ -1,12 +1,12 @@
-# __Installation__
+## BACKEND
 
-## __BACKEND__:
+Avant de lancer le serveur ouvrez le fichier .env et mettez votre mot de passe mysql dans le champ "DB_PASSWORD" .
 
-   * Copier le fichier bdd groupomania.sql et l'installer dans votre base de données.
-   * Mettez vos paramètres de connexion dans le fichier .env
-   * Il y a déjà un utilisateur d'enregistré dans la base de données. Email : theo@gmail.com / Mot de passe : password
-   * Cet utilisateur possède les droits d'administrateur.
-   
-### __Pour lancer le serveur il faut se placer dans le dossier backend et effectuer la commande *nodemon server*__
+Importer la base de données (fichier database.sql)
+
+Se placer dans le dossier backend et faire `npm install` puis `npm install mysql`
+
+Pour lancer le BackEnd, se placer dans le dossier backend et utiliser la commande `nodemon server`
+
 
 
